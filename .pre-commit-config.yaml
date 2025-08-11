@@ -1,0 +1,7 @@
+repos:
+  - repo: local
+    hooks:
+      - id: check-format
+        name: Check format
+        entry: ./cmd/check-format.sh
+        language: script
